@@ -1,0 +1,26 @@
+{
+    "name" : "gaw508/php-sqs-tutorial",
+    "version" : "0.1.0",
+    "description" : "Example for my AWS SQS tutorial",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "George Webb",
+            "email" : "george@webb.uno",
+            "homepage" : "http://george.webb.uno/",
+            "role" : "Developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.3.0",
+        "aws/aws-sdk-php" : "3.*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Gaw508\\PhpSqsTutorial\\" : "src"
+        }
+    }
+}
